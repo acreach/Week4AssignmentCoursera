@@ -97,3 +97,6 @@ meansandstd <- meansandstd[, c(refcols, setdiff(names(meansandstd), firstcolumns
 
 # creating a second tidy data set containing average of each variable by subject and activity
 avgmeansandstd <- meansandstd %>%  group_by(idActivity, nameActivity,idSubject ) %>%  summarise_all("mean")
+
+# creating the final data file from avgmeansandstd
+write.table(avgmeansandstd,file="tidydata.txt",row.name=FALSE)  
