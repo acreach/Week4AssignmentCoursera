@@ -15,15 +15,10 @@ These signals were used to estimate variables of the feature vector for each pat
 '_XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 timeBodyAcc_XYZ
-
 timeGravityAcc_XYZ
-
 timeBodyAccJerk_XYZ
-
 timeBodyGyro_XYZ
-
 timeBodyGyroJerk_XYZ
-
 timeBodyAccMag
 
 timeGravityAccMag
