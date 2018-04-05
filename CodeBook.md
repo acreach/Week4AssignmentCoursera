@@ -23,43 +23,75 @@ timeBodyAccJerk_XYZ
 timeBodyGyro_XYZ
 
 timeBodyGyroJerk_XYZ
+
 timeBodyAccMag
+
 timeGravityAccMag
+
 timeBodyAccJerkMag
+
 timeBodyGyroMag
+
 timeBodyGyroJerkMag
+
 freqBodyAcc_XYZ
+
 freqBodyAccJerk_XYZ
+
 freqBodyGyro_XYZ
+
 freqBodyAccMag
+
 freqBodyAccJerkMag
+
 freqBodyGyroMag
+
 freqBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
 Mean: Mean value
+
 Std: Standard deviation
+
 Mad: Median absolute deviation 
+
 Max: Largest value in array
+
 Min: Smallest value in array
+
 Sma: Signal magnitude area
+
 Energy: Energy measure. Sum of the squares divided by the number of values. 
+
 Iqr: Interquartile range 
+
 Entropy: Signal entropy
+
 ArCoeff: Autorregresion coefficients with Burg order equal to 4
+
 Correlation: correlation coefficient between two signals
+
 MaxInds: index of the frequency component with largest magnitude
+
 MeanFreq: Weighted average of the frequency components to obtain a mean frequency
+
 Skewness: skewness of the frequency domain signal 
+
 Kurtosis: kurtosis of the frequency domain signal 
+
 BandsEnergy: Energy of a frequency interval within the 64 bins of the FFT of each window.
+
 Angle: Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 gravityMean
+
 timeBodyAccMean
+
 timeBodyAccJerkMean
+
 timeBodyGyroMean
+
 timeBodyGyroJerkMean
