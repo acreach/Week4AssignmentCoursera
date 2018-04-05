@@ -11,6 +11,10 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing freqBodyAcc_XYZ, freqBodyAccJerk_XYZ, freqBodyGyro_XYZ, freqBodyAccJerkMag, freqBodyGyroMag, freqBodyGyroJerkMag. 
 ## Variables used
+- idActivity is the ID of the activity observed (1-6)
+- nameActivity is the label of the activity observed ("WALKING", "STANDING"...)
+- idSubject is the ID of the volunteer observed (1-30)
+
 These signals were used to estimate variables of the feature vector for each pattern:  
 '_XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
