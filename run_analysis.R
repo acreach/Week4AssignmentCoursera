@@ -89,7 +89,7 @@ names(meansandstd) <- namesmeansandstd
 # reordering column names by putting subject and activity information first
 
 firstcolumns <- c("idSubject", "idActivity", "nameActivity")
-meansandstd <- meansandstd[, c(refcols, setdiff(names(meansandstd), firstcolumns))]
+meansandstd <- meansandstd[, c(firstcolumns, setdiff(names(meansandstd), firstcolumns))]
 
 ## STEP 5 : From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 ##################################################################################
@@ -99,4 +99,4 @@ meansandstd <- meansandstd[, c(refcols, setdiff(names(meansandstd), firstcolumns
 avgmeansandstd <- meansandstd %>%  group_by(idActivity, nameActivity,idSubject ) %>%  summarise_all("mean")
 
 # creating the final data file from avgmeansandstd
-write.table(avgmeansandstd,file="tidydata.txt",row.name=FALSE)  
+write.table(avgmeansandstd,file="tidydata.txt",row.name=FALSE) 
